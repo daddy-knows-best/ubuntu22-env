@@ -5,7 +5,7 @@ ARG USER_GID=1000
 ENV WORKDIR=/dev-env
 
 LABEL "maintainer"="Daddy Knows Best"
-LABEL org.opencontainers.image.source=https://github.com/daddy-knows-best/dev-env
+LABEL org.opencontainers.image.source=https://github.com/daddy-knows-best/ubuntu22-env
 LABEL org.opencontainers.image.description="Daddy's dev env"
 
 RUN groupadd --gid $USER_GID $USERNAME && \
